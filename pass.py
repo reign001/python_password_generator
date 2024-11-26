@@ -27,13 +27,13 @@ symbols_choice = int(input("how many symbols do you want? \n"))
 
 password_list = []
 
-for char in range(1, letter_choice):
+for char in range(0, letter_choice):
     password_list.append(random.choice(letters))
 
-for char in range(1, number_choice):
+for char in range(0, number_choice):
     password_list.append(random.choice(numbers))
 
-for char in range(1, symbols_choice):
+for char in range(0, symbols_choice):
     password_list.append(random.choice(symbols))
 
 print(password_list)
